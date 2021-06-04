@@ -2,20 +2,20 @@
   <div class="container">
     <div>Read key: {{ $t('read') }}</div>
     <section id="introduction">
-      <WrapperIntroduction />
+      <wrapper-introduction />
     </section>
     <section id="about">
       <WrapperAbout :education="education" :experiences="experiences" />
     </section>
     <section id="projects">
-      <WrapperAbout :projects="projects" />
+      <WrapperProjects :projects="projects" />
     </section>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'SPA',
+  name: 'Main',
   async asyncData(context) {
     const { $content, app } = context
     const projects = await $content(`${app.i18n.locale}/projects`).fetch()

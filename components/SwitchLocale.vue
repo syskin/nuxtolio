@@ -14,6 +14,6 @@
 </template>
 <style scoped>
 .switch-locale {
-  @apply fixed top-2 md:top-4 right-2 bg-gray-50 hover:bg-gray-100 rounded-lg px-3 py-1 w-12 h-8 text-center shadow-sm transition duration-150 ease-in-out;
+  @apply fixed top-2 md:top-4 right-2 bg-gray-50 hover:bg-gray-100 rounded-lg px-3 py-1 w-12 h-8 text-center transition duration-150 ease-in-out;
 }
 </style>

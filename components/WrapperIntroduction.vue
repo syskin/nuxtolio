@@ -3,11 +3,6 @@
 </template>
 <script>
 export default {
-  props: {
-    projects: {
-      type: Array,
-      default: null,
-    },
-  },
+  name: 'WrapperIntroduction',
 }
 </script>

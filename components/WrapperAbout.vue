@@ -1,8 +1,9 @@
 <template>
-  <div>About me wrapper</div>
+  <div>About me wrapper education / experiences / stack</div>
 </template>
 <script>
 export default {
+  name: 'WrapperAbout',
   props: {
     education: {
       type: Array,
