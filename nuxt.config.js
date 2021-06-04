@@ -14,7 +14,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['@/plugins/vue-scrollactive'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -33,29 +33,28 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    // https://go.nuxtjs.dev/content
     '@nuxt/content',
     [
       'nuxt-i18n',
       {
+        lazy: true,
+        langDir: './i18n',
         locales: [
           {
             code: 'en',
-            iso: 'en-US',
+            iso: 'en-us',
             name: 'English',
+            file: 'en-us.js',
           },
           {
             code: 'fr',
             iso: 'fr-fr',
             name: 'Français',
+            file: 'fr-fr.js',
           },
         ],
         defaultLocale: 'en',
         noPrefixDefaultLocale: true,
-        messages: {
-          es: require('./locales/en-us.json'),
-          fr: require('./locales/fr-fr.json'),
-        },
       },
     ],
   ],
@@ -66,9 +65,6 @@ export default {
       lang: 'en',
     },
   },
-
-  // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
