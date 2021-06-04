@@ -16,7 +16,7 @@
       class="
         w-full
         md:w-40
-        bg-indigo-900
+        bg-primary
         md:fixed
         md:rounded-3xl
         shadow-md

@@ -1,13 +1,3 @@
 export default function (to, from, savedPosition) {
-  if (savedPosition) {
-    return savedPosition
-  }
-  if (to.hash) {
-    return {
-      selector: to.hash,
-      behavior: 'smooth',
-    }
-  } else {
-    return { x: 0, y: 0, behavior: 'smooth' }
-  }
+  // need to be define as empty function to avoid incorrect resizing page when updating locale with a selected anchor
 }

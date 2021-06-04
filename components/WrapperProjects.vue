@@ -1,12 +1,11 @@
 <template>
   <div>
     <h2>My projects</h2>
-    <div>
-      <div v-for="(project, index) in projects" :key="`project_${index}`">
-        {{ project.title }}
-        {{ project.technologies ? project.technologies.toString() : null }}
-      </div>
-    </div>
+    <CardProject
+      v-for="(project, index) in projects"
+      :key="`project_${index}`"
+      :project="project"
+    />
   </div>
 </template>
 <script>
