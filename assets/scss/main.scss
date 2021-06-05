@@ -6,35 +6,3 @@ body {
 .bg-primary {
     background-color: #372750;
 }
-
-.waves {
-    width:100%;
-    position:absolute;
-    left:0;
-}
-
-.wave {
-    background: url(../svg/wave-secondary.svg) repeat-x;
-    position: absolute;
-    top: -140px;
-    width: 7800px;
-    height: 140px;
-    animation: wave 25s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-  }
-  
-  .wave:nth-of-type(2) {
-    background: url(../svg/wave-primary.svg) repeat-x;
-    top: -120px;
-    height: 120px;
-    animation: wave 15s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
-    opacity: 1;
-  }
-  
-  @keyframes wave {
-    0% {
-      margin-left: 0;
-    }
-    100% {
-      margin-left: -1600px;
-    }
-  }

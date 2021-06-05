@@ -42,17 +42,17 @@
           <li>
             <nuxt-link
               class="scrollactive-item"
-              :to="localePath({ name: 'index', hash: '#projects' })"
+              :to="localePath({ name: 'index', hash: '#about' })"
             >
-              Projects
+              About
             </nuxt-link>
           </li>
           <li>
             <nuxt-link
               class="scrollactive-item"
-              :to="localePath({ name: 'index', hash: '#about' })"
+              :to="localePath({ name: 'index', hash: '#projects' })"
             >
-              About
+              Projects
             </nuxt-link>
           </li>
         </ul>

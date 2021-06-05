@@ -1,6 +1,16 @@
 <template>
   <div class="p-2 w-full md:w-1/2">
-    <div class="rounded-3xl shadow-md p-6 hover:shadow-lg">
+    <div
+      class="
+        rounded-3xl
+        shadow-sm
+        p-6
+        hover:shadow-md
+        transition
+        duration-300
+        ease-in-out
+      "
+    >
       <div>
         <img
           class="object-cover w-full h-24 rounded-t-xl"

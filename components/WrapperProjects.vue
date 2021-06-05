@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>My projects</h2>
-    <div class="flex flex-row flex-wrap">
+    <div class="flex flex-col md:flex-row md:flex-wrap">
       <CardProject
         v-for="(project, index) in projects"
         :key="`project_${index}`"

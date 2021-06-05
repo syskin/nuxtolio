@@ -11,6 +11,9 @@
         py-1
         font-medium
         text-sm text-gray-700
+        transition
+        duration-300
+        ease-in-out
       "
       :href="technology.link"
       target="_blank"
