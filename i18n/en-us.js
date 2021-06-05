@@ -1,5 +1,7 @@
 module.exports = {
   read: 'Read',
   about: {},
-  projects: {},
+  project: {
+    'used-tech': 'Technologies used',
+  },
 }

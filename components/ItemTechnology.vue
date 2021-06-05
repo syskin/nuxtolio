@@ -21,7 +21,7 @@
         :src="technology.icon"
         :alt="technology.name"
       />
-      <span>{{ technology.name }}</span>
+      <span class="pt-1">{{ technology.name }}</span>
     </a>
   </span>
 </template>

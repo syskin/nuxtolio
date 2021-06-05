@@ -1,5 +1,5 @@
 <template>
-  <div class="waves">
+  <div class="waves mt-40">
     <div class="wave" />
     <div class="wave" />
     <footer class="h-20 bg-primary text-white font-medium text-md text-center">

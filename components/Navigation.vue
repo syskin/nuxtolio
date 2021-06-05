@@ -3,8 +3,9 @@
     class="
       z-30
       fixed
-      bottom-0
-      w-full
+      inset-y-1/2
+      h-fit-content
+      w-18
       md:w-48
       md:relative
       md:min-h-screen
@@ -17,6 +18,7 @@
         w-full
         md:w-40
         bg-primary
+        rounded-r-xl
         md:fixed
         md:rounded-3xl
         shadow-md
@@ -27,31 +29,14 @@
     >
       <scrollactive>
         <ul
-          class="
-            scrollactive-nav
-            flex flex-row
-            md:flex-col
-            py-0
-            md:py-3
-            px-1
-            md:px-2
-            text-center
-          "
+          class="scrollactive-nav flex flex-col p-3 md:py-3 md:px-2 text-center"
         >
           <li>
             <nuxt-link
               class="scrollactive-item"
               :to="localePath({ name: 'index', hash: '#introduction' })"
             >
-              Text
-            </nuxt-link>
-          </li>
-          <li>
-            <nuxt-link
-              class="scrollactive-item"
-              :to="localePath({ name: 'index', hash: '#about' })"
-            >
-              text
+              Introduction
             </nuxt-link>
           </li>
           <li>
@@ -59,7 +44,15 @@
               class="scrollactive-item"
               :to="localePath({ name: 'index', hash: '#projects' })"
             >
-              text
+              Projects
+            </nuxt-link>
+          </li>
+          <li>
+            <nuxt-link
+              class="scrollactive-item"
+              :to="localePath({ name: 'index', hash: '#about' })"
+            >
+              About
             </nuxt-link>
           </li>
         </ul>

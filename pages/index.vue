@@ -1,14 +1,13 @@
 <template>
   <div class="container min-h-screen">
-    <div>Read key: {{ $t('read') }}</div>
     <section id="introduction" class="min-h-full">
       <wrapper-introduction />
     </section>
-    <section id="about" class="min-h-full">
-      <WrapperAbout :education="education" :experiences="experiences" />
-    </section>
     <section id="projects" class="min-h-full">
       <WrapperProjects :projects="projects" />
+    </section>
+    <section id="about" class="min-h-full">
+      <WrapperAbout :education="education" :experiences="experiences" />
     </section>
   </div>
 </template>
