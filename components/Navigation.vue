@@ -3,7 +3,6 @@
     class="
       z-30
       fixed
-      inset-y-1/2
       h-fit-content
       w-18
       md:w-48

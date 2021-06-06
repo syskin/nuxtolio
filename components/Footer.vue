@@ -22,9 +22,36 @@
       </svg>
     </div>
     <footer
-      class="h-20 bg-primary text-white font-medium text-md text-center py-4"
+      class="
+        h-24
+        bg-primary
+        text-white
+        font-medium
+        text-md text-center
+        py-4
+        relative
+      "
     >
       My footer
+      <div class="text-sm flex flex-col absolute right-1 bottom-1">
+        <a
+          class="flex flex-row flex-wrap items-center mb-1"
+          href="https://github.com/syskin/nuxtolio"
+          target="_blank"
+        >
+          <span>{{ $t('available-github') }}</span>
+          <img
+            class="w-6 h-6 ml-1 object-contain rounded-full"
+            src="/content/projects/github-icon.png"
+            alt="github icon"
+          />
+        </a>
+        <div class="flex flex-row flex-wrap items-center">
+          <span>{{ $t('made-with') }}</span>
+          <item-technology class="m-1" name="nuxtjs" />
+          <item-technology class="m-1" name="vuejs" />
+        </div>
+      </div>
     </footer>
   </div>
 </template>
@@ -48,8 +75,7 @@
   animation-duration: 25s;
 }
 .parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 20s;
+  animation-duration: 10s;
 }
 @keyframes move-forever {
   0% {

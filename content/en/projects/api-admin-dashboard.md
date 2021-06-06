@@ -2,6 +2,9 @@
 title: API admin dashboard
 category: web
 description: Step by step tutorial on how to stop being sad and being awesome instead.
-technologies: ['reactjs', 'vuejs', 'javascript', 'typescript', 'nuxtjs']
-media: https://images.unsplash.com/photo-1592500103620-1ab8f2c666a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3000&q=80
+technologies: ['typescript', 'reactjs']
+picture: /icon.png
+link: https://github.com/syskin/admin-api-dashboard
+linkText: 'Available on GitHub'
+icon: /content/projects/github-icon.png
 ---
