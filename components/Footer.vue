@@ -35,7 +35,7 @@
       My footer
       <div class="text-sm flex flex-col absolute right-1 bottom-1">
         <a
-          class="flex flex-row flex-wrap items-center mb-1"
+          class="flex flex-row flex-wrap items-center mb-1 ml-auto mr-0"
           href="https://github.com/syskin/nuxtolio"
           target="_blank"
         >
@@ -50,6 +50,7 @@
           <span>{{ $t('made-with') }}</span>
           <item-technology class="m-1" name="nuxtjs" />
           <item-technology class="m-1" name="vuejs" />
+          <span class="text-xs font-light">(and passion)</span>
         </div>
       </div>
     </footer>
@@ -60,7 +61,7 @@
   position: relative;
   width: 100%;
   height: 15vh;
-  margin-bottom: -7px;
+  margin-bottom: -5px;
   min-height: 100px;
   max-height: 150px;
 }
@@ -79,7 +80,7 @@
 }
 @keyframes move-forever {
   0% {
-    transform: translate3d(-90px, 0, 0);
+    transform: translate3d(-100px, 0, 0);
   }
   100% {
     transform: translate3d(85px, 0, 0);
