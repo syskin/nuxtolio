@@ -1,5 +1,9 @@
+---
 title: Ignimission
 category: work
-description: Step by step tutorial on how to stop being sad and being awesome instead.
-media: https://images.unsplash.com/photo-1592500103620-1ab8f2c666a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3000&q=80
+description: I joined Ignimission's R&D team to reinforce the technical team in the design of their data analysis product.
+duration: since 10/2020
+picture: /content/experiences/ignimission.jpg
+technologies: ['javascript', 'vuejs', 'php', 'laravel', 'postgresql', 'docker']
+index: 3
 ---

@@ -8,6 +8,8 @@ module.exports = {
   'front-end': 'Front-end',
   'back-end': 'Back-end',
   database: 'Database',
+  passion: 'and passion',
+  education: 'Education',
   about: {},
   project: {
     'used-tech': 'Technologies used',

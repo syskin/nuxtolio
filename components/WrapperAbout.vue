@@ -1,8 +1,14 @@
 <template>
   <div class="flex flex-col md:flex-row p-8 md:p-0">
-    <div class="flex flex-col w-full">
-      <div>Education</div>
-      <div>Experience</div>
+    <div class="flex flex-col w-full px-2 my-3 md:my-0">
+      <div class="flex flex-row flex-wrap rounded-3xl bg-gray-100 py-3">
+        <CardExperience
+          v-for="(experience, index) in experiences"
+          :key="`experience_${index}`"
+          class="w-full md:w-1/2"
+          :experience="experience"
+        />
+      </div>
     </div>
     <div
       class="
@@ -51,11 +57,30 @@
           <item-technology class="m-1" name="mongodb" />
         </div>
       </div>
+
+      <div class="flex flex-row flex-wrap items-center mt-6 mb-1">
+        <icon-svg
+          class="text-green-500 h-8 w-8 mr-1"
+          fill="currentColor"
+          :icon-path="mdiSchoolOutline"
+        />
+        <h3 class="text-gray-700 text-lg font-medium">
+          {{ $t('education') }}
+        </h3>
+      </div>
+      <div class="flex flex-row flex-wrap">
+        <CardEducation
+          v-for="(school, index) in education"
+          :key="`school_${index}`"
+          class="w-full"
+          :school="school"
+        />
+      </div>
     </div>
   </div>
 </template>
 <script>
-import { mdiHeartCircleOutline } from '@mdi/js'
+import { mdiHeartCircleOutline, mdiSchoolOutline } from '@mdi/js'
 export default {
   name: 'WrapperAbout',
   props: {
@@ -71,6 +96,7 @@ export default {
   data() {
     return {
       mdiHeartCircleOutline,
+      mdiSchoolOutline,
     }
   },
 }

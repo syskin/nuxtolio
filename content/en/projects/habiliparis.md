@@ -8,4 +8,5 @@ technologies: ['javascript', 'expressjs', 'mysql']
 icon: /content/projects/habili-icon.jpg
 link: https://ets-josephparis.fayat.com/fr/home_page/1
 linkText: 'Discover the company'
+index: 0
 ---

@@ -17,31 +17,31 @@
         </defs>
         <g class="parallax">
           <use xlink:href="#gentle-wave" x="48" y="0" fill="#F5540B" />
-          <use xlink:href="#gentle-wave" x="48" y="7" fill="#372750" />
+          <use xlink:href="#gentle-wave" x="48" y="4" fill="#372750" />
         </g>
       </svg>
     </div>
     <footer
       class="
-        h-24
         bg-primary
         text-white
         font-medium
         text-md text-center
-        py-4
+        py-8
         relative
       "
     >
-      My footer
-      <div class="text-sm flex flex-col absolute right-1 bottom-1">
-        <div class="flex flex-row flex-wrap items-center">
+      <div class="text-sm flex flex-col">
+        <div
+          class="flex flex-row flex-wrap items-center mx-auto justify-center"
+        >
           <span>{{ $t('made-with') }}</span>
           <item-technology class="m-1" name="nuxtjs" />
           <item-technology class="m-1" name="tailwindcss" />
-          <span class="text-xs font-light">(and passion)</span>
+          <span class="text-xs font-light">({{ $t('passion') }})</span>
         </div>
         <a
-          class="flex flex-row flex-wrap items-center mb-1 ml-auto mr-0"
+          class="flex flex-row flex-wrap items-center mx-auto"
           href="https://github.com/syskin/nuxtolio"
           target="_blank"
         >
@@ -91,8 +91,8 @@
 
 @media (max-width: 768px) {
   .waves {
-    height: 40px;
-    min-height: 40px;
+    height: 45px;
+    min-height: 45px;
   }
 }
 </style>

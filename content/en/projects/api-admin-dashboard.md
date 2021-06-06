@@ -7,4 +7,5 @@ picture: /icon.png
 link: https://github.com/syskin/admin-api-dashboard
 linkText: 'Available on GitHub'
 icon: /content/projects/github-icon.png
+index: 2
 ---

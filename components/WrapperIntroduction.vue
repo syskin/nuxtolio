@@ -9,14 +9,16 @@
     "
   >
     <div class="mx-auto">
-      <div class="flex items-center shape w-48 h-48">
-        <img
-          class="w-40 h-40 rounded-full mx-auto object-cover"
-          src="/mc.jpg"
-          width="100"
-          height="100"
-          alt="mathieu cadu"
-        />
+      <div class="flex items-center shape w-52 h-52">
+        <div class="flex items-center shape secondary-shape w-48 h-48">
+          <img
+            class="w-40 h-40 rounded-full mx-auto object-cover"
+            src="/mc.jpg"
+            width="100"
+            height="100"
+            alt="mathieu cadu"
+          />
+        </div>
       </div>
     </div>
     <span class="justify-start introduction w-full px-8"
@@ -70,9 +72,17 @@ span {
 
 .shape {
   background: #f5540b;
-  animation: morph 11s ease-in-out infinite;
+  animation: morph 8s ease-in-out infinite;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  transition: all 1s ease-in-out;
+  transition: all 3s ease-in-out;
+  z-index: 30;
+}
+
+.secondary-shape {
+  background: #372750;
+  animation: morph 5500ms ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  transition: all 3s ease-in-out;
   z-index: 30;
 }
 

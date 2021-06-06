@@ -1,5 +1,9 @@
+---
 title: WizzyEMM
 category: intern
-description: Step by step tutorial on how to stop being sad and being awesome instead.
-media: https://images.unsplash.com/photo-1592500103620-1ab8f2c666a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3000&q=80
+description: As intern, I participated in the development of ReactJS templates for the company.
+duration: 2 months (07/2019 - 08/2019)
+picture: /content/experiences/wizzyemm.jpg
+technologies: ['javascript', 'reactjs']
+index: 1
 ---

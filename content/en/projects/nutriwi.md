@@ -8,4 +8,5 @@ technologies: ['javascript', 'nuxtjs', 'vuejs', 'expressjs', 'mongodb', 'ansible
 link: https://www.nutriwi.com
 linkText: 'Discover Nutriwi'
 icon: /content/projects/nutriwi-icon.png
+index: 3
 ---

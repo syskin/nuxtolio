@@ -13,6 +13,8 @@ import dockerLogo from '../assets/svg/docker.svg'
 import strapiLogo from '../assets/svg/strapi.svg'
 import mysqlLogo from '../assets/svg/mysql.svg'
 import tailwindLogo from '../assets/svg/tailwindcss.svg'
+import laravelLogo from '../assets/svg/laravel.svg'
+import sqlserverLogo from '../assets/svg/sqlserver.svg'
 export default {
   nuxtjs: {
     name: 'NuxtJS',
@@ -103,5 +105,17 @@ export default {
     icon: tailwindLogo,
     link: 'https://tailwindcss.com',
     category: 'front',
+  },
+  laravel: {
+    name: 'Laravel',
+    icon: laravelLogo,
+    link: 'https://laravel.com',
+    category: 'back',
+  },
+  sqlserver: {
+    name: 'SQL Server',
+    icon: sqlserverLogo,
+    link: 'https://www.microsoft.com/en-us/sql-server/sql-server-2019',
+    category: 'database',
   },
 }

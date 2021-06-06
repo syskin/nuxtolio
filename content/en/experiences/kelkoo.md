@@ -1,5 +1,9 @@
-title: Kelkoo
+---
+title: Kelkoo (Vilnius, LT)
 category: intern
-description: Step by step tutorial on how to stop being sad and being awesome instead.
-media: https://images.unsplash.com/photo-1592500103620-1ab8f2c666a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3000&q=80
+description: As intern in BI team, I designed some queries to generate daily reports.
+duration: 1 month (07/2018)
+picture: /content/experiences/kelkoo.png
+technologies: ['sqlserver']
+index: 0
 ---
