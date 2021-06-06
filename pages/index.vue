@@ -1,9 +1,9 @@
 <template>
-  <div class="container min-h-screen">
-    <section id="introduction" class="min-h-full">
+  <div class="min-h-screen">
+    <section id="introduction">
       <wrapper-introduction />
     </section>
-    <section id="about" class="min-h-full">
+    <section id="about" class="my-20">
       <WrapperAbout :education="education" :experiences="experiences" />
     </section>
     <section id="projects" class="min-h-full">

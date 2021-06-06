@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bottom-0 mt-40">
+  <div class="w-full bottom-0 mt-12">
     <div>
       <svg
         class="waves"
@@ -34,6 +34,12 @@
     >
       My footer
       <div class="text-sm flex flex-col absolute right-1 bottom-1">
+        <div class="flex flex-row flex-wrap items-center">
+          <span>{{ $t('made-with') }}</span>
+          <item-technology class="m-1" name="nuxtjs" />
+          <item-technology class="m-1" name="tailwindcss" />
+          <span class="text-xs font-light">(and passion)</span>
+        </div>
         <a
           class="flex flex-row flex-wrap items-center mb-1 ml-auto mr-0"
           href="https://github.com/syskin/nuxtolio"
@@ -46,12 +52,6 @@
             alt="github icon"
           />
         </a>
-        <div class="flex flex-row flex-wrap items-center">
-          <span>{{ $t('made-with') }}</span>
-          <item-technology class="m-1" name="nuxtjs" />
-          <item-technology class="m-1" name="vuejs" />
-          <span class="text-xs font-light">(and passion)</span>
-        </div>
       </div>
     </footer>
   </div>
@@ -80,7 +80,7 @@
 }
 @keyframes move-forever {
   0% {
-    transform: translate3d(-100px, 0, 0);
+    transform: translate3d(-90px, 0, 0);
   }
   100% {
     transform: translate3d(85px, 0, 0);

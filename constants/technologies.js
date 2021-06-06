@@ -12,6 +12,7 @@ import ansibleLogo from '../assets/svg/ansible.svg'
 import dockerLogo from '../assets/svg/docker.svg'
 import strapiLogo from '../assets/svg/strapi.svg'
 import mysqlLogo from '../assets/svg/mysql.svg'
+import tailwindLogo from '../assets/svg/tailwindcss.svg'
 export default {
   nuxtjs: {
     name: 'NuxtJS',
@@ -56,7 +57,7 @@ export default {
     category: 'database',
   },
   postgresql: {
-    name: 'PostgresSQL',
+    name: 'PostgreSQL',
     icon: postrgesqlLogo,
     link: 'https://www.postgresql.org',
     category: 'database',
@@ -96,5 +97,11 @@ export default {
     icon: mysqlLogo,
     link: 'https://www.mysql.com',
     category: 'database',
+  },
+  tailwindcss: {
+    name: 'TailwindCSS',
+    icon: tailwindLogo,
+    link: 'https://tailwindcss.com',
+    category: 'front',
   },
 }

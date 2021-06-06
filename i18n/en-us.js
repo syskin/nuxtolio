@@ -4,6 +4,10 @@ module.exports = {
     "Welcome on my web app, I'm Mathieu Cadu, Software Engineer passionate by the resolution of complex needs by an efficient way.",
   'made-with': 'Made with',
   'available-github': 'Available on GitHub',
+  'favorite-stack': 'Favorite stack',
+  'front-end': 'Front-end',
+  'back-end': 'Back-end',
+  database: 'Database',
   about: {},
   project: {
     'used-tech': 'Technologies used',
