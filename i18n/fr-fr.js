@@ -2,7 +2,7 @@ module.exports = {
   read: 'Lire',
   about: 'A propos',
   'about-description': 'Mon parcours, mes expériences',
-  projects: 'Projects',
+  projects: 'Projets',
   'projects-description': "Dans quoi je m'investis",
   introduction: 'Bienvenue sur mon application web',
   'made-with': 'Réalisé avec',
