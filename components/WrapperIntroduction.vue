@@ -75,7 +75,7 @@ span {
   animation: morph 8s ease-in-out infinite;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   transition: all 3s ease-in-out;
-  z-index: 30;
+  z-index: 0;
 }
 
 .secondary-shape {
@@ -83,7 +83,7 @@ span {
   animation: morph 5500ms ease-in-out infinite;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   transition: all 3s ease-in-out;
-  z-index: 30;
+  z-index: 0;
 }
 
 @keyframes morph {

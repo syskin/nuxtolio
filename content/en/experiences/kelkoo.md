@@ -6,4 +6,6 @@ duration: 1 month (07/2018)
 picture: /content/experiences/kelkoo.png
 technologies: ['sqlserver']
 index: 0
+linkText: 'Discover Kelkoo'
+link: 'https://www.kelkoogroup.com/'
 ---

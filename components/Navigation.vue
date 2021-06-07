@@ -1,7 +1,7 @@
 <template>
   <div
     class="
-      z-30
+      z-50
       fixed
       h-fit-content
       w-18
@@ -43,7 +43,7 @@
               class="scrollactive-item"
               :to="localePath({ name: 'index', hash: '#about' })"
             >
-              About
+              {{ $t('about') }}
             </nuxt-link>
           </li>
           <li>
@@ -51,7 +51,7 @@
               class="scrollactive-item"
               :to="localePath({ name: 'index', hash: '#projects' })"
             >
-              Projects
+              {{ $t('projects') }}
             </nuxt-link>
           </li>
         </ul>

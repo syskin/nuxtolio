@@ -6,4 +6,6 @@ duration: since 10/2020
 picture: /content/experiences/ignimission.jpg
 technologies: ['javascript', 'vuejs', 'php', 'laravel', 'postgresql', 'docker']
 index: 3
+linkText: 'Discover Ignimission'
+link: 'https://www.ignimission.com/'
 ---

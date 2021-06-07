@@ -12,48 +12,13 @@
         ease-in-out
       "
     >
-      <a
-        v-if="project.icon && project.link"
-        class="
-          text-xs
-          flex flex-row
-          absolute
-          -top-2
-          right-2
-          rounded-full
-          bg-gray-100
-          px-2
-          py-1
-        "
-        :href="project.link"
-        target="_blank"
-        @mouseenter="active = true"
-        @mouseleave="active = false"
-      >
-        <div v-if="project.icon" class="mr-1">
-          <img
-            class="rounded-full w-4 h-4"
-            width="50"
-            height="50"
-            :src="project.icon"
-            :alt="`icon-${project.title}`"
-          />
-        </div>
-        <span
-          :class="[
-            active ? 'mr-3' : '',
-            'transform duration-500 ease-in-out font-medium text-gray-600',
-          ]"
-          >{{ project.linkText }}</span
-        >
-        <TransitionFade mode="out-in">
-          <icon-svg
-            v-show="active"
-            class="w-4 h-4 absolute right-1"
-            :icon-path="mdiChevronRight"
-          />
-        </TransitionFade>
-      </a>
+      <CardLink
+        class="-top-2 right-2 bg-gray-100"
+        :text="project.linkText"
+        :name="project.title"
+        :link="project.link"
+        :icon="project.icon"
+      />
       <div>
         <img
           class="object-cover w-full h-24 rounded-t-xl"
@@ -90,22 +55,13 @@
   </div>
 </template>
 <script>
-import { mdiChevronRight } from '@mdi/js'
-import IconSvg from './IconSvg.vue'
 export default {
   name: 'CardProject',
-  components: { IconSvg },
   props: {
     project: {
       type: Object,
       default: null,
     },
-  },
-  data() {
-    return {
-      mdiChevronRight,
-      active: false,
-    }
   },
 }
 </script>

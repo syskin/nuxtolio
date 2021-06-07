@@ -5,13 +5,18 @@
         bg-white
         rounded-3xl
         px-4
-        py-2
+        py-3
         flex flex-col
         hover:shadow-md
         transform
         duration-300
       "
     >
+      <CardLink
+        class="-top-2 right-3 bg-gray-200"
+        :text="experience.linkText"
+        :link="experience.link"
+      />
       <div class="flex flex-row items-center">
         <img
           v-if="experience.picture"

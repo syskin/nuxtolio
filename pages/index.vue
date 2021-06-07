@@ -3,11 +3,19 @@
     <section id="introduction" class="pt-20 pb-12">
       <wrapper-introduction />
     </section>
-    <section id="about" class="pt-20 pb-12">
-      <WrapperAbout :education="education" :experiences="experiences" />
+    <section id="about" class="py-12">
+      <h2>{{ $t('about') }}</h2>
+      <p>{{ $t('about-description') }}</p>
+      <WrapperAbout
+        class="mt-8"
+        :education="education"
+        :experiences="experiences"
+      />
     </section>
-    <section id="projects" class="pt-20">
-      <WrapperProjects :projects="projects" />
+    <section id="projects" class="pt-12">
+      <h2>{{ $t('projects') }}</h2>
+      <p>{{ $t('projects-description') }}</p>
+      <WrapperProjects class="mt-8" :projects="projects" />
     </section>
   </div>
 </template>
@@ -42,3 +50,11 @@ export default {
   },
 }
 </script>
+<style lang="scss" scoped>
+h2 {
+  @apply font-medium text-xl text-center;
+}
+p {
+  @apply font-normal text-center;
+}
+</style>

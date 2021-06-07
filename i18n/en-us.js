@@ -1,5 +1,9 @@
 module.exports = {
   read: 'Read',
+  about: 'About',
+  'about-description': 'My background, experiences',
+  projects: 'Projects',
+  'projects-description': "In what i'm invested",
   introduction:
     "Welcome on my web app, I'm Mathieu Cadu, Software Engineer passionate by the resolution of complex needs by an efficient way.",
   'made-with': 'Made with',
@@ -10,7 +14,6 @@ module.exports = {
   database: 'Database',
   passion: 'and passion',
   education: 'Education',
-  about: {},
   project: {
     'used-tech': 'Technologies used',
   },
