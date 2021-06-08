@@ -1,5 +1,7 @@
-title: ESAIP
+---
+title: ESAIP (Angers, FR)
 category: school
-description: Step by step tutorial on how to stop being sad and being awesome instead.
-media: https://images.unsplash.com/photo-1592500103620-1ab8f2c666a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3000&q=80
+duration: 2015 - 2020
+picture: /content/education/esaip.jpg
+index: 2
 ---

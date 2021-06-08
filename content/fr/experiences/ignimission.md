@@ -1,5 +1,11 @@
+---
 title: Ignimission
 category: work
-description: Step by step tutorial on how to stop being sad and being awesome instead.
-media: https://images.unsplash.com/photo-1592500103620-1ab8f2c666a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3000&q=80
+description: En tant que développeur VueJS, j'ai rejoins l'équipe technique R&D afin de mettre au point de nouvelles fonctionnalités à l'outil d'analyse de données de l'entreprise.
+duration: Depuis 10/2020
+picture: /content/experiences/ignimission.jpg
+technologies: ['javascript', 'vuejs', 'php', 'laravel', 'postgresql', 'docker']
+index: 3
+linkText: 'Découvrir Ignimission'
+link: 'https://www.ignimission.com/'
 ---

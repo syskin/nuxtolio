@@ -1,7 +1,7 @@
 ---
 title: Soqrate
 category: intern
-description: I accompanied the company in the technological transition of the development and the industrialization of its Internet websites.
+description: During my internship, I accompanied the company Soqrate in the technological transition of the development and industrialization of its websites.
 duration: 6 months (03/2020 - 08/2020)
 picture: /content/experiences/soqrate.jpg
 technologies: ['ansible', 'drupal', 'php', 'postgresql']

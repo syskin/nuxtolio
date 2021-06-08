@@ -1,6 +1,12 @@
 ---
-title: Nutriwi FR
+title: Nutriwi
 category: web
-description: Step by step tutorial on how to stop being sad and being awesome instead.
-media: https://images.unsplash.com/photo-1592500103620-1ab8f2c666a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3000&q=80
+description: J'ai créé Nutriwi à la suite d'un projet étudiant personnel visant à développer mes compétences en matière de développement web. Nutriwi est aujourd'hui une application web permettant au grand public d'analyser la qualité nutritionnelle des recettes qu'il réalise au quotidien avec ses produits préférés. Le scanner de produits permet de trouver des idées de recettes en fonction des produits. J'ai récemment inscrit Nutriwi dans une démarche anti-gaspillage pour lutter contre le gaspillage alimentaire.
+picture: /content/projects/nutriwi.jpg
+date: Depuis 2018
+technologies: ['javascript', 'nuxtjs', 'vuejs', 'tailwindcss', 'expressjs', 'mongodb', 'ansible']
+link: https://www.nutriwi.com
+linkText: 'Découvrir Nutriwi'
+icon: /content/projects/nutriwi-icon.png
+index: 3
 ---

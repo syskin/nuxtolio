@@ -8,7 +8,7 @@ module.exports = {
     'site-name': 'Mathieu Cadu web app',
   },
   read: 'Lire',
-  about: 'A propos',
+  about: 'À propos',
   'about-description':
     'Mon parcours, mes expériences et ma stack favorite du moment',
   projects: 'Projets',

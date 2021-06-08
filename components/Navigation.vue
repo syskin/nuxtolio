@@ -58,23 +58,35 @@
             </nuxt-link>
           </li>
         </ul>
-        <div
+        <a
           class="hidden md:block w-full font-normal text-sm absolute bottom-2"
+          href="https://www.linkedin.com/in/mathieucadu/"
+          target="_blank"
+          rel="noreferrer"
         >
-          Linkedin
-        </div>
+          <icon-svg
+            class="mx-auto w-12 h-12"
+            fill="currentColor"
+            :icon-path="mdiLinkedin"
+          />
+        </a>
       </scrollactive>
     </div>
   </div>
 </template>
 <script>
-import { mdiChevronDoubleRight, mdiChevronDoubleLeft } from '@mdi/js'
+import {
+  mdiChevronDoubleRight,
+  mdiChevronDoubleLeft,
+  mdiLinkedin,
+} from '@mdi/js'
 export default {
   data() {
     return {
       collapseState: false,
       mdiChevronDoubleRight,
       mdiChevronDoubleLeft,
+      mdiLinkedin,
     }
   },
   methods: {

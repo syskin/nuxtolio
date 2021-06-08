@@ -58,7 +58,7 @@ export default {
           if (textArray[counter]) self.displayedText += textArray[counter]
           counter++
           self.start(counter)
-        }, 60)
+        }, 40)
       }
     },
   },
