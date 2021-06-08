@@ -79,7 +79,14 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
+      name: 'Mathieu Cadu PWA',
       lang: 'en',
+      theme_color: '#372750',
+      background_color: '#fd6800',
+      display: 'standalone',
+    },
+    icon: {
+      fileName: 'icon.png',
     },
   },
 

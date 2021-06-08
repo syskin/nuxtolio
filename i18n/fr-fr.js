@@ -1,4 +1,12 @@
 module.exports = {
+  page: {
+    title: 'Mathieu CADU',
+    description:
+      "Découvrez mon parcours de développeur NodeJS, ma stack préférée pour créer des applicatifs rapidement et performant ainsi que les projets dans lesquels je m'investis.",
+    picture: '/banner.jpg',
+    url: '',
+    'site-name': 'Mathieu Cadu web app',
+  },
   read: 'Lire',
   about: 'A propos',
   'about-description': 'Mon parcours, mes expériences',

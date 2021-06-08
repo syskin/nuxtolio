@@ -3,7 +3,7 @@
     <section id="introduction" class="pt-20 pb-12">
       <wrapper-introduction />
     </section>
-    <section id="about" class="py-12">
+    <section id="about" class="py-16">
       <h2>{{ $t('about') }}</h2>
       <p>{{ $t('about-description') }}</p>
       <WrapperAbout
@@ -46,6 +46,42 @@ export default {
       experiences: [],
       education: [],
       projects: [],
+    }
+  },
+
+  head() {
+    return {
+      title: this.$i18n.t('page.title'),
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.$i18n.t('page.description'),
+        },
+        {
+          property: 'og:url',
+          content: this.$i18n.t('page.url'),
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.$i18n.t('page.title'),
+        },
+        {
+          property: 'og:image',
+          content: this.$i18n.t('page.url') + this.$i18n.t('page.picture'),
+        },
+        {
+          hid: 'og:site_name',
+          property: 'og:site_name',
+          content: this.$i18n.t('page.site-name'),
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.$i18n.t('page.description'),
+        },
+      ],
     }
   },
 }

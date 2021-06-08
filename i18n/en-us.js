@@ -1,4 +1,11 @@
 module.exports = {
+  page: {
+    title: 'Mathieu CADU',
+    description: 'Software Engineer',
+    picture: '/banner.jpg',
+    url: 'https://mathieu-cadu.com',
+    'site-name': 'Mathieu Cadu web app',
+  },
   read: 'Read',
   about: 'About',
   'about-description': 'My background, experiences',
