@@ -9,13 +9,22 @@
       type="image/svg+xml"
       :src="flagUK"
       alt="united kingdom"
+      width="20"
+      height="20"
   /></nuxt-link>
   <nuxt-link
     v-else-if="$i18n.locale !== 'fr'"
     class="switch-locale text-md"
     :to="switchLocalePath('fr')"
   >
-    <img class="w-6 h-6 mr-1" type="image/svg+xml" :src="flagFR" alt="france" />
+    <img
+      class="w-6 h-6 mr-1"
+      type="image/svg+xml"
+      :src="flagFR"
+      alt="france"
+      width="20"
+      height="20"
+    />
   </nuxt-link>
 </template>
 <script>
