@@ -64,6 +64,7 @@
           target="_blank"
           rel="noreferrer"
         >
+          LinkedIn
           <icon-svg
             class="mx-auto w-12 h-12"
             fill="currentColor"
