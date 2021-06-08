@@ -8,6 +8,14 @@ export default {
       { hid: 'description', name: 'description', content: '' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        async: true,
+        defer: true,
+        'data-domain': 'mathieu-cadu.com',
+        src: 'https://analytics.mathieu-cadu.com/js/plausible.js',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
