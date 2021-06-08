@@ -17,12 +17,15 @@
       "
       :href="technology.link"
       target="_blank"
+      rel="noreferrer"
     >
       <img
         class="w-6 h-6 mr-1"
         type="image/svg+xml"
         :src="technology.icon"
         :alt="technology.name"
+        width="50"
+        height="50"
       />
       <span class="pt-1">{{ technology.name }}</span>
     </a>

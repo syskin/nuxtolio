@@ -4,6 +4,9 @@
       <img
         class="w-12 h-12 rounded-full object-cover mr-2"
         :src="school.picture"
+        :alt="school.title"
+        width="50"
+        height="50"
       />
       <div class="flex flex-col">
         <span class="text-sm font-medium text-gray-600">{{

@@ -22,11 +22,14 @@
           v-if="experience.picture"
           class="rounded-full w-10 h-10 object-cover"
           :src="experience.picture"
+          :alt="experience.title"
+          width="100"
+          height="100"
         />
         <div class="flex flex-col ml-1">
-          <h4 class="text-lg font-medium text-gray-700">
+          <span class="text-lg font-medium text-gray-700">
             {{ experience.title }}
-          </h4>
+          </span>
           <span class="text-xs text-gray-700 font-light">{{
             experience.duration
           }}</span>

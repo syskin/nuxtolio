@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>
-    <span class="justify-start introduction w-full px-8"
+    <span class="justify-start introduction w-full px-8 min-h-48 md:min-h-0"
       >{{ displayedText }}<span class="cursor"></span
     ></span>
   </div>

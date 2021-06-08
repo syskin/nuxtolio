@@ -28,9 +28,9 @@
           :alt="project.title"
         />
       </div>
-      <h3 class="text-gray-800 font-medium text-lg">
+      <span class="text-gray-800 font-medium text-lg">
         {{ project.title }}
-      </h3>
+      </span>
       <p v-if="project.date" class="text-xs italic text-gray-600">
         {{ project.date }}
       </p>

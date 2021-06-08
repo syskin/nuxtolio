@@ -3,6 +3,7 @@
     class="text-xs flex flex-row absolute rounded-full px-2 py-1"
     :href="link"
     target="_blank"
+    rel="noreferrer"
     @mouseenter="active = true"
     @mouseleave="active = false"
   >

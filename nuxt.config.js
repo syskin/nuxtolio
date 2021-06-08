@@ -18,6 +18,15 @@ export default {
     ],
   },
 
+  optimizedImages: {
+    optimizeImages: true,
+  },
+
+  server: {
+    port: 4949,
+    host: '0.0.0.0',
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/scss/main'],
 

@@ -44,12 +44,15 @@
           class="flex flex-row flex-wrap items-center mx-auto"
           href="https://github.com/syskin/nuxtolio"
           target="_blank"
+          rel="noreferrer"
         >
           <span>{{ $t('available-github') }}</span>
           <img
             class="w-6 h-6 ml-1 object-contain rounded-full"
             src="/content/projects/github-icon.png"
             alt="github icon"
+            width="50"
+            height="50"
           />
         </a>
       </div>
