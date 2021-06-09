@@ -81,6 +81,26 @@ export default {
           property: 'og:description',
           content: this.$i18n.t('page.description'),
         },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.$i18n.t('page.title'),
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.$i18n.t('page.description'),
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: this.$i18n.t('page.url') + this.$i18n.t('page.picture'),
+        },
+        {
+          hid: 'twitter:image:alt',
+          name: 'twitter:image:alt',
+          content: this.$i18n.t('page.site-name'),
+        },
       ],
     }
   },
