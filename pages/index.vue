@@ -69,7 +69,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: 'http://localhost:4949' + this.$i18n.t('page.picture'),
+          content: this.$i18n.t('page.url') + this.$i18n.t('page.picture'),
         },
         {
           hid: 'og:site_name',
