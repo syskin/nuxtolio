@@ -1,9 +1,9 @@
 <template>
   <div class="min-h-screen">
-    <section id="introduction" class="pt-20 pb-12">
+    <section id="introduction" class="pt-20 pb-12 px-4 md:px-1">
       <wrapper-introduction />
     </section>
-    <section id="about" class="py-16">
+    <section id="about" class="py-16 px-4 md:px-1">
       <h2>{{ $t('about') }}</h2>
       <p>{{ $t('about-description') }}</p>
       <WrapperAbout
@@ -12,7 +12,7 @@
         :experiences="experiences"
       />
     </section>
-    <section id="projects" class="pt-12">
+    <section id="projects" class="pt-12 px-4 md:px-1">
       <h2>{{ $t('projects') }}</h2>
       <p>{{ $t('projects-description') }}</p>
       <WrapperProjects class="mt-8" :projects="projects" />
@@ -69,7 +69,7 @@ export default {
         },
         {
           property: 'og:image',
-          content: this.$i18n.t('page.url') + this.$i18n.t('page.picture'),
+          content: 'http://localhost:4949' + this.$i18n.t('page.picture'),
         },
         {
           hid: 'og:site_name',

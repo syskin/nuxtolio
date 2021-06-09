@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col lg:flex-row p-8 lg:p-0">
+  <div class="flex flex-col lg:flex-row p-2 md:p-8 lg:p-0">
     <div class="flex flex-col w-full px-2 my-3 lg:my-0">
       <div class="flex flex-row flex-wrap rounded-3xl bg-gray-100 py-3">
         <CardExperience
