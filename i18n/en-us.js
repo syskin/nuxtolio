@@ -1,6 +1,6 @@
 module.exports = {
   page: {
-    title: 'Mathieu Cadu, software engineer, NodeJS developer',
+    title: 'Mathieu Cadu, Software Engineer, NodeJS developer',
     description:
       "Discover my background as a NodeJS developer, my favourite stack to create applications quickly and efficiently and the projects I'm involved in.",
     picture: '/banner.jpg',
@@ -12,7 +12,8 @@ module.exports = {
   'about-description':
     'My background, my experiences and my favourite stack of the moment',
   projects: 'Projects',
-  'projects-description': "In what i'm invested",
+  'projects-description':
+    'Discover some of my projects that have allowed me to train, evolve and never stop learning',
   introduction:
     'Welcome to my web application, I am Mathieu Cadu, I like to think, develop and optimize simple solutions to answer complex needs.',
   'made-with': 'Made with',

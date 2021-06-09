@@ -55,6 +55,9 @@
             height="50"
           />
         </a>
+
+        <span class="text-md text-white mt-5">contact@mathieu-cadu.com</span>
+        <LinkedinLink class="block md:hidden" />
       </div>
     </footer>
   </div>
