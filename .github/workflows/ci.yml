@@ -17,10 +17,10 @@ jobs:
     - name: Setup node.js
       uses: actions/setup-node@v1
       with:
-        node-version: '14.x'
-    - name: NPM Install
-      run: npm install
-    - name: Run test
-      run: npm run test
+        node-version: '12.x'
+    - name: Yarn Install
+      run: yarn 
+    - name: test
+      run: yarn test
     - name: Lint
-      run: npm run lint
+      run: yarn lint
