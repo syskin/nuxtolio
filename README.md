@@ -6,6 +6,18 @@
 
 NuxtJS portfolio example using NuxtJS/TailwindCSS combo.
 
+## Features
+
+- Content generation with [NuxtJS/content](https://content.nuxtjs.org)
+
+- Text translations by [NuxtJS/i18n](https://i18n.nuxtjs.org)
+
+- CSS styles using [TailwindCSS/NuxtJS](https://tailwindcss.nuxtjs.org)
+
+- Progressive Web App support with [NuxtJS/PWA](https://pwa.nuxtjs.org)
+
+- Optimized SPA with 4 x 100 Lighthouse scores
+
 ## Requirements
 1. Node.js >= 12.x
 
@@ -30,16 +42,4 @@ yarn build
 ```
 yarn start
 ```
-
-## Features
-
-- Content generation with [NuxtJS/content](https://content.nuxtjs.org)
-
-- Text translations by [NuxtJS/i18n](https://i18n.nuxtjs.org)
-
-- CSS styles using [TailwindCSS/NuxtJS](https://tailwindcss.nuxtjs.org)
-
-- Progressive Web App support with [NuxtJS/PWA](https://pwa.nuxtjs.org)
-
-- Optimized SPA with 4 x 100
 
