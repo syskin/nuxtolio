@@ -8,6 +8,7 @@ module.exports = {
   transform: {
     '^.+\\.js$': 'babel-jest',
     '.*\\.(vue)$': 'vue-jest',
+    '^.+\\.vue$': require.resolve('vue-i18n-jest'),
   },
   collectCoverage: true,
   collectCoverageFrom: [

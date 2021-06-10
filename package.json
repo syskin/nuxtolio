@@ -55,6 +55,7 @@
     "stylelint": "^13.12.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^21.0.0",
+    "vue-i18n-jest": "^1.1.0",
     "vue-jest": "^3.0.4"
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen">
     <section id="introduction" class="pt-20 pb-12 px-4 md:px-1">
-      <wrapper-introduction />
+      <WrapperIntroduction />
     </section>
     <section id="about" class="py-16 px-4 md:px-1">
       <h2>{{ $t('about') }}</h2>
@@ -21,8 +21,12 @@
 </template>
 
 <script>
+import WrapperAbout from '~/components/WrapperAbout.vue'
+import WrapperIntroduction from '~/components/WrapperIntroduction.vue'
+import WrapperProjects from '~/components/WrapperProjects.vue'
 export default {
   name: 'Main',
+  components: { WrapperAbout, WrapperIntroduction, WrapperProjects },
   async asyncData(context) {
     const { $content, app } = context
     const projects = await $content(`${app.i18n.locale}/projects`)
