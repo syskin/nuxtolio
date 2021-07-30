@@ -15,11 +15,18 @@ import mysqlLogo from '../assets/svg/mysql.svg'
 import tailwindLogo from '../assets/svg/tailwindcss.svg'
 import laravelLogo from '../assets/svg/laravel.svg'
 import sqlserverLogo from '../assets/svg/sqlserver.svg'
+import nextjsLogo from '../assets/svg/nextjs.svg'
 export default {
   nuxtjs: {
     name: 'NuxtJS',
     icon: nuxtjsLogo,
     link: 'https://nuxtjs.org',
+    category: 'front',
+  },
+  nextjs: {
+    name: 'NextJS',
+    icon: nextjsLogo,
+    link: 'https://nextjs.org',
     category: 'front',
   },
   vuejs: {
