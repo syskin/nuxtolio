@@ -16,6 +16,7 @@ import tailwindLogo from '../assets/svg/tailwindcss.svg'
 import laravelLogo from '../assets/svg/laravel.svg'
 import sqlserverLogo from '../assets/svg/sqlserver.svg'
 import nextjsLogo from '../assets/svg/nextjs.svg'
+import fastifyLogo from '../assets/svg/fastify.svg'
 export default {
   nuxtjs: {
     name: 'NuxtJS',
@@ -124,5 +125,11 @@ export default {
     icon: sqlserverLogo,
     link: 'https://www.microsoft.com/en-us/sql-server/sql-server-2019',
     category: 'database',
+  },
+  fastify: {
+    name: 'Fastify',
+    icon: fastifyLogo,
+    link: 'https://fastify.io',
+    category: 'back',
   },
 }
