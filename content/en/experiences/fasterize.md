@@ -6,6 +6,6 @@ duration: Since 01/2022
 picture: /content/experiences/fasterize.jpg
 technologies: ['javascript', 'typescript', 'reactjs', 'fastify', 'postgresql', 'docker']
 index: 4
-linkText: 'Découvrir Fasterize'
+linkText: 'Discover Fasterize'
 link: 'https://www.fasterize.com/'
 ---
