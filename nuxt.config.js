@@ -12,6 +12,7 @@ export default {
       {
         async: true,
         defer: true,
+        crossorigin: 'anonymous',
         'data-domain': 'mathieu-cadu.com',
         src: 'https://analytics.mathieu-cadu.com/js/plausible.js',
       },
