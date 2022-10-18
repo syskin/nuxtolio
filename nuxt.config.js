@@ -10,11 +10,9 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       {
-        async: true,
         defer: true,
-        crossorigin: 'anonymous',
         'data-domain': 'mathieu-cadu.com',
-        src: 'https://analytics.mathieu-cadu.com/js/plausible.js',
+        src: 'https://analytics.nutriwi.com/js/plausible.js',
       },
     ],
   },
