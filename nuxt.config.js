@@ -8,7 +8,15 @@ export default {
       { hid: 'description', name: 'description', content: '' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    __dangerouslyDisableSanitizers: ['script'],
     script: [
+      {
+        hid: 'monitor',
+        src: '/monitoring.js',
+        defer: true,
+        type: 'text/javascript',
+        charset: 'utf-8',
+      },
       {
         defer: true,
         'data-domain': 'mathieu-cadu.com',
