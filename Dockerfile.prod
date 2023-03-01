@@ -1,0 +1,11 @@
+FROM node:16-alpine AS deps
+RUN apk add --no-cache libc6-compat
+
+COPY . .
+RUN npm rebuild node-sass
+RUN yarn install
+RUN yarn build
+
+EXPOSE 4949
+
+CMD yarn start

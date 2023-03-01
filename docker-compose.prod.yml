@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  app:
+    build:
+      context: "./"
+      dockerfile: Dockerfile.prod
+    environment:
+      APP_ENV: production
+    ports:
+      - "4949:4949"
