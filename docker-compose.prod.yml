@@ -6,5 +6,6 @@ services:
       dockerfile: Dockerfile.prod
     environment:
       HOST: 0.0.0.0
+      PORT: 4949
     ports:
-      - "4949:4949"
+      - 4949:4949
