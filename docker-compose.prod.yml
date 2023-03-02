@@ -7,5 +7,6 @@ services:
     environment:
       HOST: 0.0.0.0
       PORT: 4949
+      NEW_RELIC_APP_NAME: Nuxtolio
     ports:
       - 4949:4949
