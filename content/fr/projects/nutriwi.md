@@ -8,5 +8,6 @@ technologies: ['javascript', 'nuxtjs', 'vuejs', 'tailwindcss', 'expressjs', 'mon
 link: https://www.nutriwi.com
 linkText: 'Découvrir Nutriwi'
 icon: /content/projects/nutriwi-icon.png
-index: 3
+index: 4
+
 ---
