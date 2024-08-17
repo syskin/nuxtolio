@@ -17,6 +17,8 @@ import laravelLogo from '../assets/svg/laravel.svg'
 import sqlserverLogo from '../assets/svg/sqlserver.svg'
 import nextjsLogo from '../assets/svg/nextjs.svg'
 import fastifyLogo from '../assets/svg/fastify.svg'
+import supabaseLogo from '../assets/svg/supabase.svg'
+import vercelLogo from '../assets/svg/vercel.svg'
 export default {
   nuxtjs: {
     name: 'NuxtJS',
@@ -130,6 +132,18 @@ export default {
     name: 'Fastify',
     icon: fastifyLogo,
     link: 'https://fastify.io',
+    category: 'back',
+  },
+  supabase: {
+    name: 'Supabase',
+    icon: supabaseLogo,
+    link: 'https://supabase.com/',
+    category: 'database',
+  },
+  vercel: {
+    name: 'Vercel',
+    icon: vercelLogo,
+    link: 'https://vercel.com/',
     category: 'back',
   },
 }
